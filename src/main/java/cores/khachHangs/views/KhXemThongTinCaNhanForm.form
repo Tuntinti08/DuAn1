@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="materialTabbed1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="materialTabbed1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="utilities.palette.MaterialTabbed" name="materialTabbed1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Th&#xf4;ng tin t&#xe0;i kho&#x1ea3;n">
+                <Property name="tabTitle" type="java.lang.String" value="Th&#xf4;ng tin t&#xe0;i kho&#x1ea3;n"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="30" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtDiaChi" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtMa" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtNgaySinh" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtVaiTro" alignment="0" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtTen" alignment="0" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtGioiTinh" alignment="0" min="-2" pref="247" max="-2" attributes="0"/>
+                          <Component id="txtDienThoai" alignment="0" min="-2" pref="247" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="txtMa" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="txtTen" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtGioiTinh" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtNgaySinh" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtDienThoai" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtDiaChi" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="txtVaiTro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="27" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="utilities.palette.TextField" name="txtNgaySinh">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="Ng&#xe0;y sinh: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtMa">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="M&#xe3;: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtDienThoai">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="&#x110;i&#x1ec7;n tho&#x1ea1;i: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtVaiTro">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="Vai tr&#xf2;: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtDiaChi">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="&#x110;&#x1ecb;a ch&#x1ec9;: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtGioiTinh">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="Gi&#x1edb;i t&#xed;nh: "/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.TextField" name="txtTen">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="T&#xea;n: "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u">
+                <Property name="tabTitle" type="java.lang.String" value="&#x110;&#x1ed5;i m&#x1ead;t kh&#x1ea9;u"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtNewPass" min="-2" pref="234" max="-2" attributes="0"/>
+                          <Component id="txtConfirmPass" min="-2" pref="234" max="-2" attributes="0"/>
+                          <Component id="txtOldPass" min="-2" pref="234" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="btnXacNhan" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnHuyBo" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="34" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="txtOldPass" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                      <Component id="txtNewPass" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="txtConfirmPass" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnHuyBo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnXacNhan" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="109" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="utilities.palette.PasswordField" name="txtOldPass">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="M&#x1ead;t kh&#x1ea9;u hi&#x1ec7;n t&#x1ea1;i: "/>
+                <Property name="showAndHide" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.PasswordField" name="txtConfirmPass">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="X&#xe1;c nh&#xe2;n m&#x1ead;t kh&#x1ea9;u m&#x1edb;i: "/>
+                <Property name="showAndHide" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.PasswordField" name="txtNewPass">
+              <Properties>
+                <Property name="labelText" type="java.lang.String" value="M&#x1ead;t kh&#x1ea9;u m&#x1edb;i: "/>
+                <Property name="showAndHide" type="boolean" value="true"/>
+              </Properties>
+            </Component>
+            <Component class="utilities.palette.UWPButton" name="btnHuyBo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="H&#x1ee6;Y B&#x1ece;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnHuyBoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="utilities.palette.UWPButton" name="btnXacNhan">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="X&#xc1;C NH&#x1eac;N"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnXacNhanActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
